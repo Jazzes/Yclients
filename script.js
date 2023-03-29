@@ -846,12 +846,6 @@ class Calendar {
         for (let i = 0; i !== this.parse_days[currently_month].length; ++i){
             $(`div[id^='zxc_day_${currently_month}_${this.parse_days[currently_month][i]}']`).addClass("u_can_take_it")
         }
-        // let wid_to_scroll = 50 * (this.parse_days[currently_month][0] - 1)
-        // $('.date_body').animate({
-        //     scrollLeft: `-=2000px`
-        // }, 0).animate({
-        //     scrollLeft: `+=${wid_to_scroll}px`
-        // }, 1000)
         my_click.click_date()
     }
 }
