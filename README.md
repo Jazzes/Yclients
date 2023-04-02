@@ -1,6 +1,5 @@
 # Yclients
----
 
-Script for web form of Yclients
+Script for web form of Yclients.
 
-Stack: Javascript + jQuery
+Stack: Javascript + jQuery.
